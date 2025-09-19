@@ -1,0 +1,10 @@
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+*.sqlite
+.DS_Store
+# Node/JS (just in case)
+node_modules/
