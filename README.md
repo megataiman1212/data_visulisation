@@ -1,13 +1,21 @@
-# CSC2034: Data Science Class Demos
-A collection of basic data science python / pandas / scikit scripts for teaching purposes, a part of [Newcastle University's CSC2034 Module](https://www.ncl.ac.uk/undergraduate/modules/csc2034). This code is intended to be ran using Google Colab.
+﻿# Data Visualisation Coursework
 
-For running this code on Google Colab:
+**What it is:** Coursework project focused on visualising world data (Stage 2).  
+**Goal:** Clean a dataset and build scatter plots / charts to explore health and education indicators.  
+**Tech stack:** Python, Pandas, Matplotlib, Seaborn, Jupyter Notebook.  
+**My role:** Data cleaning, feature selection, produced scatter plots, and interpreted results.
 
-1. Go to https://colab.research.google.com  (Links to an external site.)
-2. A window should open right away asking you to open a notebook. If it does not, find the ribbon at the top of the window and click File > Open Notebook.
-3. In the window, select GitHub
-4. Enter 'EllyOK'
-5. Select data_visualisation, branch master
-6. Click on a notebook 
+## How to run
+`ash
+python -m venv .venv
+. .venv/Scripts/activate
+pip install -r requirements.txt
+jupyter notebook
+`
 
-If you notice any bugs when running this code, please let us know.
+Highlights
+
+* Explored links between life expectancy, education, and development.
+* Produced scatter plots and visual insights using Matplotlib/Seaborn.
+* Delivered a clear report with supporting visualisations.
+
